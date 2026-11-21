@@ -15,3 +15,7 @@ The app is a PWA. Once served over HTTPS, use your browser's **Install app** opt
 
 ## Data
 Planner data is stored locally in the browser. Use the in-app JSON backup/export feature regularly; browser data is not automatically synced between devices.
+
+
+## Publishing
+A new commit to `main` triggers a fresh GitHub Pages build when branch deployment is enabled.

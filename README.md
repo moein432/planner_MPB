@@ -7,9 +7,8 @@ Open `index.html` through a local web server (for example VS Code Live Server). 
 
 ## Deploy with GitHub Pages
 1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Select branch **main** and folder **/(root)**, then Save.
-4. Wait for the Pages deployment to finish.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Save the setting. The workflow in `.github/workflows/deploy-pages.yml` will publish the site on the next push to `main`.
 
 The app is a PWA. Once served over HTTPS, use your browser's **Install app** option. The service worker caches the app shell and supports offline use after the first successful load.
 
